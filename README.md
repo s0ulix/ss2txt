@@ -11,6 +11,8 @@ and also copied images from browser.
 In the new feature now you can also select pictures from your computer.
 There are 2 features in this script one is you can automatically copy the extracted text to your clipboard and the 2nd one is that it will automatically search the extracted text in your browser.
 
+For Easyocr:-
+
 
 Before using this script, You will need python installed and all the modules used here installed in your system.
 
@@ -33,3 +35,22 @@ Note:- Person having nvidia gpu install pytorch version which support cuda cores
 Which can be installed from this command
 
 pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+
+
+For Pytesseract:-
+
+Install tesseract from https://sourceforge.net/projects/tesseract-ocr-alt/files/tesseract-ocr-setup-3.02.02.exe/download
+
+Note:- add the pasth of tesseract exe in the script as per your system
+
+Modules:
+
+*webbrowser
+
+*pytesseract
+
+*PIL 
+
+*tkinter 
+
+*pyperclip
