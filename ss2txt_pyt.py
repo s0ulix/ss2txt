@@ -3,10 +3,10 @@ import webbrowser
 from PIL import ImageGrab
 from PIL import Image as IMG
 from tkinter import *
-
 import pyperclip
-from tkinter.filedialog import askopenfile
-pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'   #give you tesseracts path here use / only not \
+from tkinter import messagebox
+from tkinter.filedialog import askopenfilename
+pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
 def clr():
     out.delete('1.0', END)
 def textg(ch):
@@ -20,14 +20,14 @@ def textg(ch):
             file_name=ch
         b=pytesseract.image_to_string(IMG.open(file_name))
         return b
-    except:
+    except Exception as ex:
         messagebox.showerror(title="Error", message="No screenshot taken or copied image")
+        print(ex)
         return None
 
 def fi():
-    file = askopenfile(mode='r',filetypes=[("image", ".jpeg"),("image", ".png"),("image", ".jpg"),])
-    a=str(file).split()
-    b=textg(a[1][6:-1])
+    file = askopenfilename(filetypes=[("image", ".jpeg"),("image", ".png"),("image", ".jpg"),])
+    b=textg(file)
     return b
 def cpysr(b):
     if(b!=None):
