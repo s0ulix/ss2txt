@@ -6,7 +6,7 @@ There are 2 features in this script one is you can automatically copy the extrac
 
 For Pytesseract:-
 
-Install tesseract from 
+Download tesseract from https://drive.google.com/file/d/1Crq-kF4rT6cHsYBRIHCLIwHmBYT4Ub-D/view?usp=sharing and install it to your system
 
 Note:- If path related error o tesseract occurs add the path of tesseract exe in the script as per your system
 
