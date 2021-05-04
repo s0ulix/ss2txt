@@ -4,7 +4,7 @@ from PIL import ImageGrab
 from tkinter import *
 from tkinter import messagebox
 import pyperclip
-from tkinter.filedialog import askopenfile
+from tkinter.filedialog import askopenfilename
 def clr():
     out.delete('1.0', END)
 def textg(ch):
@@ -22,13 +22,13 @@ def textg(ch):
             b += a[1]
             b += ' '
         return b
-    except:
+    except Exception as ex:
         messagebox.showerror(title="Error", message="No screenshot taken or copied image")
+        print(ex)
         return None
 def fi():
-    file = askopenfile(mode='r',filetypes=[("image", ".jpeg"),("image", ".png"),("image", ".jpg"),])
-    a=str(file).split()
-    b=textg(a[1][6:-1])
+    file = askopenfilename(filetypes=[("image", ".jpeg"),("image", ".png"),("image", ".jpg"),])
+    b=textg(file)
     return b
 def cpysr(b):
     if(b!=None):
@@ -66,7 +66,7 @@ def s3():
     b=fi()
     cpy(b)
 global reader
-reader = easyocr.Reader(['en']) # you can use multiple laguages and hindi alse For hindi use 'hi'
+reader = easyocr.Reader(['en'])
 root = Tk()
 logo = PhotoImage(file='logo.png')
 root.configure(bg="black")
