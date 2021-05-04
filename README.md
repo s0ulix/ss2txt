@@ -25,3 +25,6 @@ Modules:
 instally any module is as below
 
 pip install module_name   (eg pip install pytesseract)
+
+
+Dont forget to add both the png files in the same folder as of script.
