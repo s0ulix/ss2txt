@@ -8,10 +8,15 @@ There are 2 features in this script one is you can automatically copy the extrac
 Before using this script, You will need python installed and all the modules used here installed in your system.
 
 Modules:
-*webbrowser 
+
+*webbrowser
+
 *easyocr 
+
 *PIL 
+
 *tkinter 
+
 *pyperclip
 
 When you will run it for the first time one language package will install so wait for that (this is a one time thing so no worries).
