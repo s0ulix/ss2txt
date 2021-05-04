@@ -6,13 +6,10 @@ from tkinter import messagebox
 import pyperclip
 from tkinter.filedialog import askopenfile
 def clr():
-    global out
     out.delete('1.0', END)
 def textg(ch):
     clr()
     try:
-        global reader
-        global out
         if(ch==1):
             img = ImageGrab.grabclipboard()
             img.save('snip.png', 'PNG')
