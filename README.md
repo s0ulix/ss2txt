@@ -25,4 +25,4 @@ When you will run it for the first time one language package will install so wai
 Note:- Person having nvidia gpu install pytorch version which support cuda cores, torch version 1.5.0+cu92 is recomended
 Which can be installed from this command
 
-pip install torch==1.5.1+cu92 torchvision==0.6.1+cu92 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
