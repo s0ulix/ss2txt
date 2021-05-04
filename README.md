@@ -20,3 +20,6 @@ Modules:
 *pyperclip
 
 When you will run it for the first time one language package will install so wait for that (this is a one time thing so no worries).
+
+
+Note:- Person having nvidia gpu install pytorch version which support cuda cores, torch version 1.5.0+cu92 is recomended
