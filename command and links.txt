@@ -1,0 +1,5 @@
+pip install pytesseract
+
+pip install pyperclip
+
+https://drive.google.com/file/d/1Crq-kF4rT6cHsYBRIHCLIwHmBYT4Ub-D/view?usp=sharing
