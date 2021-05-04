@@ -66,7 +66,7 @@ def s3():
     b=fi()
     cpy(b)
 global reader
-reader = easyocr.Reader(['en'])
+reader = easyocr.Reader(['en']) # you can use multiple laguages and hindi alse For hindi use 'hi'
 root = Tk()
 logo = PhotoImage(file='logo.png')
 root.configure(bg="black")
