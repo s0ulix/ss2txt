@@ -6,7 +6,7 @@ from tkinter import *
 
 import pyperclip
 from tkinter.filedialog import askopenfile
-pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'   #give you tesseracts path here use / only not \
 def clr():
     out.delete('1.0', END)
 def textg(ch):
