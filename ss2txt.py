@@ -1,6 +1,6 @@
 import webbrowser
 import easyocr
-from PIL import ImageGrab, Image
+from PIL import ImageGrab
 from tkinter import *
 from tkinter import messagebox
 import pyperclip
