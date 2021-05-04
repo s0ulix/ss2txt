@@ -4,7 +4,7 @@ There are 2 scripts for this program each having different module for OCR
 
 One with easyocr which supports the hindi language with other languages but usage a lot of ram(ss2txt,py)
 
-Other one is with tesseract which is good for english and use a very less ram.(ss2txt_tes.py)
+Other one is with tesseract which is good for english and use a very less ram.(ss2txt_pyt.py)
 
 This is a python script which will automatically extract text from the images which are copied in you clipboard or you can say the screenshots taken from snip tool in window 10
 and also copied images from browser.
