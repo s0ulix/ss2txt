@@ -9,6 +9,8 @@ But much more accurate, If you have ram to spare and some processing power to sp
 
 Else use tesseract one
 
+You can follow this video for installation: https://youtu.be/73TfFPapDo4
+
 For Pytesseract:-
 
 Download tesseract from https://drive.google.com/file/d/1pJ-h4ujrzgmU61cGyzltOvitv1kfDF3i/view?usp=sharing and install it to your system
