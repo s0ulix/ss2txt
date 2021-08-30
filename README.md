@@ -13,7 +13,7 @@ You can follow this video for installation: https://youtu.be/73TfFPapDo4
 
 For Pytesseract:-
 
-Download tesseract from https://drive.google.com/file/d/1pJ-h4ujrzgmU61cGyzltOvitv1kfDF3i/view?usp=sharing and install it to your system
+Download tesseract from https://drive.google.com/file/d/1MC-ZUEvsJhTcCiw1Y1VOW0dVk6ciWoEn/view?usp=sharing and install it to your system
 
 Note:- If path related error o tesseract occurs add the path of tesseract exe in the script as per your system
 
